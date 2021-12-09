@@ -1,34 +1,47 @@
 .nav {
-  background: deepskyblue
+  background: lightgray
 }
 
 .head {
-  background: gray
+  background: lightgray;
+}
+
+.container {
+  background: gray;
+  background-color: lightgray;
 }
 
 .body {
   background: lightgray;
+  background-color: lightgray;
 }
 
 .box {
   height: 400px;
   padding: 20px;
   color: #fff;
-  background: deepskyblue;
 }
 
 .image {
   width: 800px;
   height: 300px;
-  align-content: center;
   margin: 0px 0px;
   image-orientation: unset
 }
 
-h1 {
+h2 {
   color: navy;
   text-indent: 30px;
   word-wrap: unset;
+}
+
+h6 {
+  text-indent: 2px;
+  color: navy;
+}
+
+p {
+  text-indent: 3px;
 }
 
 h5 {

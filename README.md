@@ -10,6 +10,6 @@ To accomplish this, I created a Jupiter Notebook (mission_to_mars.ipynb) to gene
   4.  Created a for loop to scrape multiple pages on https://marshemispheres.com/ to scrape the names of the Mars hemispheres and visit those pages to grab the image url for the respective hemisphere.
   5.  Exported the Jupyter Notebook into a .py file (scrape_mars.py) and modified this to eliminate "print()" statements, previews, and areas where I closed the browser ("browser.quit()").
 
-Following this, a Flask App was developed using pymongo to identify the scraping route ("app.py").  Then I developed a html file ("templates/index.html") to serve as a GUI for the app.  This html file includes a button on the page that will perform the scraping functions and displays the output from the app.  Further, the html exported as a table (mentioned above) was copied and pasted into the index.html file. 
+Following this, a Flask App was developed using pymongo to identify the scraping route ("app.py").  Then I developed a html file ("templates/index.html") to serve as a GUI for the app.  This html file includes a button on the page that will perform the scraping functions and displays the output from the app.  Further, the html exported as a table (mentioned above) was copied and pasted into the index.html file to display the new table.
 
-Screenshots from this process are also stored in this repository.  
+Screenshots from this process are also stored in this repository.

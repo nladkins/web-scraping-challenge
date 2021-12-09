@@ -1,4 +1,4 @@
-# Web Scraping Homework - Mission to Mars
+# Web Scraping - Mission to Mars
 
 This repository reflects work to build a web application that scrapes various websites for data related to the Mission to Mars.  This then displays the information on a single HTML web page.  
 
